@@ -29,7 +29,7 @@ class Speedometer extends Component {
           alt="speedometer"
         />
         <h1 className="mainHead">
-          Speed is <spam>{speed}</spam>mph
+          Speed is {speed}mph
         </h1>
         <p className="para">Min limit is 0mph, Max limit is 200mph</p>
         <div className="buttonContainer">
@@ -45,7 +45,7 @@ class Speedometer extends Component {
             className="breakBtn"
             onClick={this.onClickBreak}
           >
-            Apply Break
+            Apply Brake
           </button>
         </div>
       </div>
